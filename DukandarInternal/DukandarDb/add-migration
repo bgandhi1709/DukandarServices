@@ -9,12 +9,12 @@ fi
 versionNumber="$(date +'%Y%m%d%H%M%S')"
 fileName=$versionNumber-$1.cs
 
-touch ./Wf.database/migrations/$fileName
+touch ././DukandarDb/migrations/$fileName
 
-cat > ./Wf.database/migrations/$fileName << EOF
+cat > ././DukandarDb/migrations/$fileName << EOF
 using FluentMigrator;
 
-namespace Wf.Database.Migrations
+namespace DukandarDb
 {    
     [Migration($versionNumber)]
     public class $1$versionNumber : Migration
