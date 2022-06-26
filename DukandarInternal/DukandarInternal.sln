@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukandarInternal", "DukandarInternal\DukandarInternal.csproj", "{1F747B87-B49B-4FBF-B560-B19F7C75D960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukandarRepository", "DukandarRepository\DukandarRepository.csproj", "{96839F84-DAB5-440F-B6B3-177AF29EB06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukandarDb", "DukandarDb\DukandarDb.csproj", "{25EA842D-F3E2-4B0A-8845-B09DFDB091AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F747B87-B49B-4FBF-B560-B19F7C75D960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F747B87-B49B-4FBF-B560-B19F7C75D960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F747B87-B49B-4FBF-B560-B19F7C75D960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F747B87-B49B-4FBF-B560-B19F7C75D960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96839F84-DAB5-440F-B6B3-177AF29EB06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96839F84-DAB5-440F-B6B3-177AF29EB06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96839F84-DAB5-440F-B6B3-177AF29EB06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96839F84-DAB5-440F-B6B3-177AF29EB06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25EA842D-F3E2-4B0A-8845-B09DFDB091AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EA842D-F3E2-4B0A-8845-B09DFDB091AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EA842D-F3E2-4B0A-8845-B09DFDB091AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EA842D-F3E2-4B0A-8845-B09DFDB091AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

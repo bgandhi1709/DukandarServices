@@ -1,0 +1,35 @@
+#!/bin/bash
+
+if test -z "$1"
+then
+  echo "No name was provided. Example usage: $(tput setaf 3) ./add-migration {NameOfMigration}"
+  exit 1
+fi
+
+versionNumber="$(date +'%Y%m%d%H%M%S')"
+fileName=$versionNumber-$1.cs
+
+touch ./Wf.database/migrations/$fileName
+
+cat > ./Wf.database/migrations/$fileName << EOF
+using FluentMigrator;
+
+namespace Wf.Database.Migrations
+{    
+    [Migration($versionNumber)]
+    public class $1$versionNumber : Migration
+    {
+        public override void Up()
+        {
+            // migration goes here              
+        }
+
+        public override void Down()
+        {
+            // migration rollback goes here 
+        }
+    }
+}
+EOF
+
+echo "Created new migration: $(tput setaf 2) $fileName"

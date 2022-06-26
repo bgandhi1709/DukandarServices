@@ -1,0 +1,28 @@
+#!/bin/bash
+
+ENVIRONMENT="$1"
+VALID_ENVIRONMENTS=("test" "local" "beta" "prod", "dev") 
+VALID_ENVIRONMENTS_AS_STRING=$(printf "/%s" "${VALID_ENVIRONMENTS[@]}")
+VALID_ENVIRONMENTS_AS_STRING=${VALID_ENVIRONMENTS_AS_STRING:1}
+
+
+#Env check correct parameter passed
+if [[ ! " ${VALID_ENVIRONMENTS[*]} " =~  ${ENVIRONMENT} ]]; then 
+  
+    echo "Non valid environment given. Allowed values are : $VALID_ENVIRONMENTS_AS_STRING. Received : $ENVIRONMENT"
+    exit 1
+fi
+
+if [ "$ENVIRONMENT" == "dev" ]; 
+    then
+        ## dev uses the test vault but with another sql db. we need to be explicit in that case    
+        CONNECTION=`az keyvault secret show --vault-name WfKeyVault-test --name SqlConnectionString | jq -r ".value"`
+        CONNECTION="${CONNECTION/wf-db-test/wf-db-dev}"
+    else 
+        CONNECTION=`az keyvault secret show --vault-name WfKeyVault-"$ENVIRONMENT" --name SqlConnectionString | jq -r ".value"`
+fi
+
+dotnet publish -o publish -c Release
+dotnet fm migrate --verbose -p sqlserver -c "$CONNECTION" -a "publish/Wf.Database.dll"
+
+
