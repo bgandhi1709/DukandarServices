@@ -9,9 +9,10 @@ fi
 versionNumber="$(date +'%Y%m%d%H%M%S')"
 fileName=$versionNumber-$1.cs
 
-touch ././DukandarDb/migrations/$fileName
+touch ./migrations/$fileName
 
-cat > ././DukandarDb/migrations/$fileName << EOF
+cat > ./migrations/$fileName << EOF
+
 using FluentMigrator;
 
 namespace DukandarDb
