@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/bhavingandhi/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/bhavingandhi/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/bhavingandhi/.nuget/packages/" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)dapper.fastcrud.modelgenerator/3.0.44/contentFiles/any/any/Models/GenericModelGenerator.tt" Condition="Exists('$(NuGetPackageRoot)dapper.fastcrud.modelgenerator/3.0.44/contentFiles/any/any/Models/GenericModelGenerator.tt')">
+      <NuGetPackageId>Dapper.FastCrud.ModelGenerator</NuGetPackageId>
+      <NuGetPackageVersion>3.0.44</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Models/GenericModelGenerator.tt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)dapper.fastcrud.modelgenerator/3.0.44/contentFiles/any/any/Models/SampleModelGeneratorConfig.tt" Condition="Exists('$(NuGetPackageRoot)dapper.fastcrud.modelgenerator/3.0.44/contentFiles/any/any/Models/SampleModelGeneratorConfig.tt')">
+      <NuGetPackageId>Dapper.FastCrud.ModelGenerator</NuGetPackageId>
+      <NuGetPackageVersion>3.0.44</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Models/SampleModelGeneratorConfig.tt</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)dapper.fastcrud.modelgenerator/3.0.44/Build/Dapper.FastCrud.ModelGenerator.props" Condition="Exists('$(NuGetPackageRoot)dapper.fastcrud.modelgenerator/3.0.44/Build/Dapper.FastCrud.ModelGenerator.props')" />
+  </ImportGroup>
+</Project>

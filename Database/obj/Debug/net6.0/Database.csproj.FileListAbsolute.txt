@@ -1,0 +1,12 @@
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/Database.csproj.AssemblyReference.cache
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/Database.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/Database.AssemblyInfoInputs.cache
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/Database.AssemblyInfo.cs
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/Database.csproj.CoreCompileInputs.cache
+/Users/bhavingandhi/Personal/DukandarServices/Database/bin/Debug/net6.0/Database.deps.json
+/Users/bhavingandhi/Personal/DukandarServices/Database/bin/Debug/net6.0/Database.dll
+/Users/bhavingandhi/Personal/DukandarServices/Database/bin/Debug/net6.0/Database.pdb
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/Database.dll
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/refint/Database.dll
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/Database.pdb
+/Users/bhavingandhi/Personal/DukandarServices/Database/obj/Debug/net6.0/ref/Database.dll

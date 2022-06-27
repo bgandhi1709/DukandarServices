@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "IzFzA+JmCNk+F2f9X7558otJXke8rMLf402FvQZIzTwvIRv91oiBeWkiRx7Mu4lGCEbztT0m+iby4BdR+S206A==",
+  "success": true,
+  "projectFilePath": "/Users/bhavingandhi/Personal/DukandarServices/Api/Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/bhavingandhi/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

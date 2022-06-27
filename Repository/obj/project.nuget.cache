@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BzGJgneEKBOxdJfcJ6wn+F/fKhcSJx5bv7JJzNkhMrnjwJ8aBzKoLEHTO9BcBATWF3LEKHN4gBMsv98TxNwhWw==",
+  "success": true,
+  "projectFilePath": "/Users/bhavingandhi/Personal/DukandarServices/Repository/Repository.csproj",
+  "expectedPackageFiles": [
+    "/Users/bhavingandhi/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/dapper.fastcrud/3.0.46/dapper.fastcrud.3.0.46.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/dapper.fastcrud.modelgenerator/3.0.44/dapper.fastcrud.modelgenerator.3.0.44.nupkg.sha512",
+    "/Users/bhavingandhi/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
